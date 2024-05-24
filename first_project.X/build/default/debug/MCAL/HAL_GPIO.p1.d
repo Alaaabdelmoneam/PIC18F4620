@@ -1,0 +1,7 @@
+build/default/debug/MCAL/HAL_GPIO.p1:  \
+MCAL/HAL_GPIO.c  \
+MCAL/HAL_GPIO.h  \
+MCAL/STD_TYPES.h  \
+MCAL/COMPILER.h  \
+MCAL/STD_LIBS.h  \
+MCAL/DEVICE_CONFIG.h 

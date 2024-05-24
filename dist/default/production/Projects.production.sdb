@@ -1,0 +1,1049 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"19 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/CHAR_LCD/chr_lcd.c
+[e E2996 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2986 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"37 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/DC_MOTOR_DRIVER/dc_motor.c
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+"72
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"17 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/KEYPAD/keypad.c
+[e E2996 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2986 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"16 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/LCD/LCD.c
+[e E3038 . `uc
+COMMON_ANODE 0
+COMMON_CATHODE 1
+]
+"21 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/LED/LED.c
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+"47
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"23 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/PUSH_BUTTON/PUSH_BTN.c
+[e E3038 . `uc
+NOT_PRESSED 0
+PRESSED 1
+]
+[e E3042 . `uc
+ACTIVE_LOW 0
+ACTIVE_HIGH 1
+]
+"44
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"29 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/RELAY/RELAY.c
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+"56
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"15 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/ADC/adc.c
+[e E2996 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2986 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"32
+[e E3072 . `uc
+ALL_ANALOG 2
+FROM_AN0_TO_AN11 3
+FROM_AN0_TO_AN10 4
+FROM_AN0_TO_AN9 5
+FROM_AN0_TO_AN8 6
+FROM_AN0_TO_AN7 7
+FROM_AN0_TO_AN6 8
+FROM_AN0_TO_AN5 9
+FROM_AN0_TO_AN4 10
+FROM_AN0_TO_AN3 11
+FROM_AN0_TO_AN2 12
+FROM_AN0_TO_AN1 13
+FROM_AN0_TO_AN0 14
+ALL_DIGITAL 15
+]
+[e E3063 . `uc
+FOSC_DIV_2 0
+FOSC_DIV_8 1
+FOSC_DIV_32 2
+FOSC_RC 3
+FOSC_DIV_4 4
+FOSC_DIV_16 5
+FOSC_DIV_64 6
+]
+[e E3053 . `uc
+TAD_0 0
+TAD_2 1
+TAD_4 2
+TAD_6 3
+TAD_8 4
+TAD_12 5
+TAD_16 6
+TAD_20 7
+]
+[e E3038 . `uc
+AN_0 0
+AN_1 1
+AN_2 2
+AN_3 3
+AN_4 4
+AN_5 5
+AN_6 6
+AN_7 7
+AN_8 8
+AN_9 9
+AN_10 10
+AN_11 11
+AN_12 12
+]
+"50 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/GPIO/HAL_GPIO.c
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+"94
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"206
+[e E2996 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+"14 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/interrupts/MCAL_EXTERNAL_INTERRUPT.c
+[e E2996 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2986 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"67
+[e E3038 . `uc
+INT0_INTERRUPT 0
+INT1_INTERRUPT 1
+INT2_INTERRUPT 2
+]
+[e E3043 . `uc
+FALLING_EDGE 0
+RISING_EDGE 1
+]
+"103 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/interrupts/MCAL_INTERRUPT_MANAGER.c
+[e E3062 . `uc
+FALLING_EDGE 0
+RISING_EDGE 1
+]
+"35 D:\Embedded system practise\interfacing\Projects\application.c
+[e E2996 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2986 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+"38
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"97
+[e E3353 . `uc
+TIMER1_PRESCALER_FREQ_DIV_1 0
+TIMER1_PRESCALER_FREQ_DIV_2 1
+TIMER1_PRESCALER_FREQ_DIV_4 2
+TIMER1_PRESCALER_FREQ_DIV_8 3
+]
+"107
+[e E3385 . `uc
+TIMER2_POSTSCALER_FREQ_DIV_1 0
+TIMER2_POSTSCALER_FREQ_DIV_2 1
+TIMER2_POSTSCALER_FREQ_DIV_3 2
+TIMER2_POSTSCALER_FREQ_DIV_4 3
+TIMER2_POSTSCALER_FREQ_DIV_5 4
+TIMER2_POSTSCALER_FREQ_DIV_6 5
+TIMER2_POSTSCALER_FREQ_DIV_7 6
+TIMER2_POSTSCALER_FREQ_DIV_8 7
+TIMER2_POSTSCALER_FREQ_DIV_9 8
+TIMER2_POSTSCALER_FREQ_DIV_10 9
+TIMER2_POSTSCALER_FREQ_DIV_11 10
+TIMER2_POSTSCALER_FREQ_DIV_12 11
+TIMER2_POSTSCALER_FREQ_DIV_13 12
+TIMER2_POSTSCALER_FREQ_DIV_14 13
+TIMER2_POSTSCALER_FREQ_DIV_15 14
+TIMER2_POSTSCALER_FREQ_DIV_16 15
+]
+"108
+[e E3380 . `uc
+TIMER2_PRESCALER_FREQ_DIV_1 0
+TIMER2_PRESCALER_FREQ_DIV_4 1
+TIMER2_PRESCALER_FREQ_DIV_16 2
+]
+"117
+[e E3420 . `uc
+TIMER3_PRESCALER_FREQ_DIV_1 0
+TIMER3_PRESCALER_FREQ_DIV_2 1
+TIMER3_PRESCALER_FREQ_DIV_4 2
+TIMER3_PRESCALER_FREQ_DIV_8 3
+]
+"45
+[v _led_toggle_callback led_toggle_callback `(v  1 e 1 0 ]
+"114
+[v _timer3_init timer3_init `(v  1 e 1 0 ]
+"127
+[v _main main `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\memset.c
+[v _memset memset `(*.2v  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"70 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/CHAR_LCD/chr_lcd.c
+[v _lcd_4bit_send_command lcd_4bit_send_command `(uc  1 e 1 0 ]
+"85
+[v _lcd_4bit_send_chr_data lcd_4bit_send_chr_data `(uc  1 e 1 0 ]
+"100
+[v _lcd_4bit_send_str_data lcd_4bit_send_str_data `(uc  1 e 1 0 ]
+"113
+[v _lcd_4bit_send_chr_data_position lcd_4bit_send_chr_data_position `(uc  1 e 1 0 ]
+"188
+[v _lcd_8bit_send_command lcd_8bit_send_command `(uc  1 e 1 0 ]
+"202
+[v _lcd_8bit_send_chr_data lcd_8bit_send_chr_data `(uc  1 e 1 0 ]
+"230
+[v _lcd_8bit_send_chr_data_position lcd_8bit_send_chr_data_position `(uc  1 e 1 0 ]
+"274
+[v _lcd_send_4bits lcd_send_4bits `(uc  1 s 1 lcd_send_4bits ]
+"283
+[v _lcd_send_8bits lcd_send_8bits `(uc  1 s 1 lcd_send_8bits ]
+"292
+[v _lcd_4bits_send_enable lcd_4bits_send_enable `(uc  1 s 1 lcd_4bits_send_enable ]
+"300
+[v _lcd_8bits_send_enable lcd_8bits_send_enable `(uc  1 s 1 lcd_8bits_send_enable ]
+"308
+[v _lcd_8bits_set_cursor lcd_8bits_set_cursor `(uc  1 s 1 lcd_8bits_set_cursor ]
+"325
+[v _lcd_4bits_set_cursor lcd_4bits_set_cursor `(uc  1 s 1 lcd_4bits_set_cursor ]
+"102 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/ADC/adc.c
+[v _ADC_Select_Channel ADC_Select_Channel `(uc  1 e 1 0 ]
+"119
+[v _ADC_Start_Conversion ADC_Start_Conversion `(uc  1 e 1 0 ]
+"153
+[v _ADC_Get_Conversion_Data ADC_Get_Conversion_Data `(uc  1 e 1 0 ]
+"220
+[v _ADC_Enable_Input_Channel ADC_Enable_Input_Channel `T(v  1 s 1 ADC_Enable_Input_Channel ]
+"272
+[v _ADC_Select_Voltage_Source ADC_Select_Voltage_Source `T(v  1 s 1 ADC_Select_Voltage_Source ]
+"288
+[v _ADC_Select_Data_Display_Format ADC_Select_Data_Display_Format `T(v  1 s 1 ADC_Select_Data_Display_Format ]
+"303
+[v _ADC_Get_Data ADC_Get_Data `T(us  1 s 2 ADC_Get_Data ]
+"324
+[v _ADC_ISR1 ADC_ISR1 `(v  1 e 1 0 ]
+"26 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/GPIO/HAL_GPIO.c
+[v _gpio_pin_direction_init gpio_pin_direction_init `(uc  1 e 1 0 ]
+"94
+[v _gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+[v i2_gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+"129
+[v _gpio_pin_logic_read gpio_pin_logic_read `(uc  1 e 1 0 ]
+"154
+[v _gpio_pin_logic_toggle gpio_pin_logic_toggle `(uc  1 e 1 0 ]
+"172
+[v _gpio_pin_init gpio_pin_init `(uc  1 e 1 0 ]
+"180 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/interrupts/MCAL_EXTERNAL_INTERRUPT.c
+[v _INTx_Enable INTx_Enable `(uc  1 s 1 INTx_Enable ]
+"230
+[v _INTx_Disable INTx_Disable `(uc  1 s 1 INTx_Disable ]
+"256
+[v _INTx_Init_Pin INTx_Init_Pin `(uc  1 s 1 INTx_Init_Pin ]
+"300
+[v _INTx_Init_Edge INTx_Init_Edge `(uc  1 s 1 INTx_Init_Edge ]
+"359
+[v _RBx_Disable RBx_Disable `(uc  1 s 1 RBx_Disable ]
+"397
+[v _INTx_Clear_Flag INTx_Clear_Flag `(uc  1 s 1 INTx_Clear_Flag ]
+"423
+[v _Set_INT0_Handler Set_INT0_Handler `(uc  1 s 1 Set_INT0_Handler ]
+"434
+[v _Set_INT1_Handler Set_INT1_Handler `(uc  1 s 1 Set_INT1_Handler ]
+"446
+[v _Set_INT2_Handler Set_INT2_Handler `(uc  1 s 1 Set_INT2_Handler ]
+"457
+[v _Set_Interrupt_Handler Set_Interrupt_Handler `(uc  1 s 1 Set_Interrupt_Handler ]
+"480
+[v _ISR0 ISR0 `(v  1 e 1 0 ]
+"493
+[v _ISR1 ISR1 `(v  1 e 1 0 ]
+"506
+[v _ISR2 ISR2 `(v  1 e 1 0 ]
+"630
+[v _RB3_ISR RB3_ISR `(v  1 e 1 0 ]
+"84 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/interrupts/MCAL_INTERRUPT_MANAGER.c
+[v _Interrupt_Manager Interrupt_Manager `IIH(v  1 e 1 0 ]
+"125 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER0/timer.c
+[v _Timer0_Write Timer0_Write `(uc  1 e 1 0 ]
+"145
+[v _Timer0_ISR Timer0_ISR `(v  1 e 1 0 ]
+"153
+[v _write write `(v  1 s 1 write ]
+"26 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER1/timer.c
+[v _Timer1_Init Timer1_Init `(uc  1 e 1 0 ]
+"133
+[v _Timer1_ISR Timer1_ISR `(v  1 e 1 0 ]
+"141
+[v _write@timer$F2306 write `(v  1 s 1 write ]
+"147
+[v _timer1_select_mode timer1_select_mode `T(v  1 s 1 timer1_select_mode ]
+"29 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER2/timer2.c
+[v _Timer2_Init Timer2_Init `(uc  1 e 1 0 ]
+"102
+[v _Timer2_ISR Timer2_ISR `(v  1 e 1 0 ]
+"25 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER3/timer3.c
+[v _Timer3_Init Timer3_Init `(uc  1 e 1 0 ]
+"124
+[v _Timer3_ISR Timer3_ISR `(v  1 e 1 0 ]
+"132
+[v _write@timer3$F2768 write `(v  1 s 1 write ]
+[v i2_write@timer3$F2768 write `(v  1 s 1 i2_write@timer3$F2768 ]
+"138
+[v _timer3_select_mode timer3_select_mode `T(v  1 s 1 timer3_select_mode ]
+"28 D:\Embedded system practise\interfacing\Projects\application.c
+[v _var var `VEus  1 e 2 0 ]
+"29
+[v _freq freq `VEul  1 e 4 0 ]
+[s S24 . 1 `uc 1 PORT 1 0 :3:0 
+`uc 1 PIN 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"35
+[v _pin pin `S24  1 e 1 0 ]
+"38
+[v _pin1 pin1 `S24  1 e 1 0 ]
+"41
+[v _pin2 pin2 `S24  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S1148 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2519
+[s S1157 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S1161 . 1 `S1148 1 . 1 0 `S1157 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1161  1 e 1 @3997 ]
+[s S1118 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2596
+[s S1127 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S1131 . 1 `S1118 1 . 1 0 `S1127 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1131  1 e 1 @3998 ]
+[s S1957 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 HLVDIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"2749
+[s S1966 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIE 1 0 :1:2 
+]
+[u S1969 . 1 `S1957 1 . 1 0 `S1966 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES1969  1 e 1 @4000 ]
+[s S1985 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"2815
+[s S1994 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S1997 . 1 `S1985 1 . 1 0 `S1994 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1997  1 e 1 @4001 ]
+[s S487 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"2947
+[s S496 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S499 . 1 `S487 1 . 1 0 `S496 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES499  1 e 1 @4006 ]
+"2992
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"2999
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"3006
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"3013
+[v _EEADRH EEADRH `VEuc  1 e 1 @4010 ]
+[s S2646 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+]
+"3566
+[s S2649 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 TMR3CS 1 0 :1:1 
+`uc 1 nT3SYNC 1 0 :1:2 
+`uc 1 T3CCP1 1 0 :1:3 
+`uc 1 T3CKPS 1 0 :2:4 
+`uc 1 T3CCP2 1 0 :1:6 
+`uc 1 RD16 1 0 :1:7 
+]
+[s S2657 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T3SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+]
+[s S2663 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN3 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RD163 1 0 :1:7 
+]
+[s S2668 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 T3RD16 1 0 :1:7 
+]
+[u S2671 . 1 `S2646 1 . 1 0 `S2649 1 . 1 0 `S2657 1 . 1 0 `S2663 1 . 1 0 `S2668 1 . 1 0 ]
+[v _T3CONbits T3CONbits `VES2671  1 e 1 @4017 ]
+"3648
+[v _TMR3L TMR3L `VEuc  1 e 1 @4018 ]
+"3655
+[v _TMR3H TMR3H `VEuc  1 e 1 @4019 ]
+[s S1090 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"4394
+[s S1095 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S1102 . 1 `S1090 1 . 1 0 `S1095 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES1102  1 e 1 @4032 ]
+[s S1049 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"4469
+[s S1052 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S1059 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S1064 . 1 `S1049 1 . 1 0 `S1052 1 . 1 0 `S1059 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1064  1 e 1 @4033 ]
+[s S975 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4573
+[s S978 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S982 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S989 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S992 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S995 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S998 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S1001 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S1004 . 1 `S975 1 . 1 0 `S978 1 . 1 0 `S982 1 . 1 0 `S989 1 . 1 0 `S992 1 . 1 0 `S995 1 . 1 0 `S998 1 . 1 0 `S1001 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1004  1 e 1 @4034 ]
+"4655
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4662
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S2375 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"5057
+[s S2379 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S2387 . 1 `S2375 1 . 1 0 `S2379 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES2387  1 e 1 @4042 ]
+"5217
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+[s S2190 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"5257
+[s S2193 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 T1RUN 1 0 :1:6 
+`uc 1 RD16 1 0 :1:7 
+]
+[s S2201 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S2207 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 T1RD16 1 0 :1:7 
+]
+[u S2212 . 1 `S2190 1 . 1 0 `S2193 1 . 1 0 `S2201 1 . 1 0 `S2207 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES2212  1 e 1 @4045 ]
+[s S2058 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"5878
+[s S2065 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S2071 . 1 `S2058 1 . 1 0 `S2065 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES2071  1 e 1 @4053 ]
+"5940
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"5947
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S1581 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"6239
+[s S1590 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S1599 . 1 `S1581 1 . 1 0 `S1590 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES1599  1 e 1 @4080 ]
+[s S1622 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6329
+[s S1625 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S1634 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S1637 . 1 `S1622 1 . 1 0 `S1625 1 . 1 0 `S1634 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES1637  1 e 1 @4081 ]
+[s S515 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6406
+[s S524 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S533 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S537 . 1 `S515 1 . 1 0 `S524 1 . 1 0 `S533 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES537  1 e 1 @4082 ]
+"32 D:\Embedded system practise\interfacing\Projects\ECU_LAYER/KEYPAD/keypad.c
+[v _keypad_buttons keypad_buttons `[4][4]uc  1 e 16 0 ]
+"13 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/ADC/adc.c
+[v _ADC_Interrupt_Handler ADC_Interrupt_Handler `*.37(v  1 s 2 ADC_Interrupt_Handler ]
+"11 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/GPIO/HAL_GPIO.c
+[v _TRIS_REGISTERS TRIS_REGISTERS `[5]*.39VEuc  1 e 10 0 ]
+"13
+[v _PORT_REGISTERS PORT_REGISTERS `[5]*.39VEuc  1 e 10 0 ]
+"26 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/interrupts/MCAL_EXTERNAL_INTERRUPT.c
+[v _pin3 pin3 `S24  1 e 1 0 ]
+"32
+[v _LAT_REGISTERS LAT_REGISTERS `[5]*.39VEuc  1 e 10 0 ]
+"36
+[v _RB4_Interrupt_Handler RB4_Interrupt_Handler `*.37(v  1 s 2 RB4_Interrupt_Handler ]
+"37
+[v _RB5_Interrupt_Handler RB5_Interrupt_Handler `*.37(v  1 s 2 RB5_Interrupt_Handler ]
+"38
+[v _RB6_Interrupt_Handler RB6_Interrupt_Handler `*.37(v  1 s 2 RB6_Interrupt_Handler ]
+"39
+[v _RB7_Interrupt_Handler RB7_Interrupt_Handler `*.37(v  1 s 2 RB7_Interrupt_Handler ]
+"42
+[v _INT0_Interrupt_Handler INT0_Interrupt_Handler `*.37(v  1 s 2 INT0_Interrupt_Handler ]
+"43
+[v _INT1_Interrupt_Handler INT1_Interrupt_Handler `*.37(v  1 s 2 INT1_Interrupt_Handler ]
+"44
+[v _INT2_Interrupt_Handler INT2_Interrupt_Handler `*.37(v  1 s 2 INT2_Interrupt_Handler ]
+"11 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/interrupts/MCAL_INTERRUPT_MANAGER.c
+[v _RB4_Flag RB4_Flag `VEuc  1 s 1 RB4_Flag ]
+[v _RB5_Flag RB5_Flag `VEuc  1 s 1 RB5_Flag ]
+[v _RB6_Flag RB6_Flag `VEuc  1 s 1 RB6_Flag ]
+[v _RB7_Flag RB7_Flag `VEuc  1 s 1 RB7_Flag ]
+"18 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER0/timer.c
+[v _Timer0_ISR_Callback Timer0_ISR_Callback `*.37(v  1 s 2 Timer0_ISR_Callback ]
+"22
+[v _preload preload `us  1 s 2 preload ]
+"19 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER1/timer.c
+[v _Timer1_Interrupt_Handler Timer1_Interrupt_Handler `*.37(v  1 s 2 Timer1_Interrupt_Handler ]
+"24
+[v _timer1_preload timer1_preload `us  1 s 2 timer1_preload ]
+"21 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER2/timer2.c
+[v _Timer2_Interrupt_Handler Timer2_Interrupt_Handler `*.37(v  1 s 2 Timer2_Interrupt_Handler ]
+"23
+[v _timer2_preload timer2_preload `uc  1 s 1 timer2_preload ]
+"17 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER3/timer3.c
+[v _Timer3_Interrupt_Handler Timer3_Interrupt_Handler `*.37(v  1 s 2 Timer3_Interrupt_Handler ]
+"22
+[v _timer3_preload timer3_preload `us  1 s 2 timer3_preload ]
+"127 D:\Embedded system practise\interfacing\Projects\application.c
+[v _main main `(i  1 e 2 0 ]
+{
+"150
+} 0
+"114
+[v _timer3_init timer3_init `(v  1 e 1 0 ]
+{
+[s S2565 . 6 `*.37(v 1 Interrupt_Handler 2 0 `uc 1 reserved 1 2 :1:0 
+`us 1 preloaded_value 2 3 `uc 1 prescaler_value 1 5 :2:0 
+`uc 1 timer1_timer3_CCP_enables 1 5 :2:2 
+`uc 1 counter_mode_synchronization_status 1 5 :1:4 
+`uc 1 timer_or_counter_mode 1 5 :1:5 
+`uc 1 timer_bit_operation_mode 1 5 :1:6 
+]
+"115
+[v timer3_init@timer timer `S2565  1 a 6 2 ]
+"125
+} 0
+"25 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER3/timer3.c
+[v _Timer3_Init Timer3_Init `(uc  1 e 1 0 ]
+{
+[s S2565 . 6 `*.37(v 1 Interrupt_Handler 2 0 `uc 1 reserved 1 2 :1:0 
+`us 1 preloaded_value 2 3 `uc 1 prescaler_value 1 5 :2:0 
+`uc 1 timer1_timer3_CCP_enables 1 5 :2:2 
+`uc 1 counter_mode_synchronization_status 1 5 :1:4 
+`uc 1 timer_or_counter_mode 1 5 :1:5 
+`uc 1 timer_bit_operation_mode 1 5 :1:6 
+]
+[v Timer3_Init@timer3 timer3 `*.30S2565  1 p 1 17 ]
+"82
+} 0
+"132
+[v _write@timer3$F2768 write `(v  1 s 1 write ]
+{
+[v write@timer3$F2768@value value `us  1 p 2 15 ]
+"136
+} 0
+"138
+[v _timer3_select_mode timer3_select_mode `T(v  1 s 1 timer3_select_mode ]
+{
+[s S2565 . 6 `*.37(v 1 Interrupt_Handler 2 0 `uc 1 reserved 1 2 :1:0 
+`us 1 preloaded_value 2 3 `uc 1 prescaler_value 1 5 :2:0 
+`uc 1 timer1_timer3_CCP_enables 1 5 :2:2 
+`uc 1 counter_mode_synchronization_status 1 5 :1:4 
+`uc 1 timer_or_counter_mode 1 5 :1:5 
+`uc 1 timer_bit_operation_mode 1 5 :1:6 
+]
+[v timer3_select_mode@timer timer `*.30S2565  1 p 1 15 ]
+"153
+} 0
+"172 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/GPIO/HAL_GPIO.c
+[v _gpio_pin_init gpio_pin_init `(uc  1 e 1 0 ]
+{
+"176
+[v gpio_pin_init@ret ret `uc  1 a 1 6 ]
+[s S24 . 1 `uc 1 PORT 1 0 :3:0 
+`uc 1 PIN 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"172
+[v gpio_pin_init@pin pin `*.30CS24  1 p 1 18 ]
+"191
+} 0
+"94
+[v _gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+{
+"96
+[v gpio_pin_logic_write@ret ret `uc  1 a 1 17 ]
+[s S24 . 1 `uc 1 PORT 1 0 :3:0 
+`uc 1 PIN 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"94
+[v gpio_pin_logic_write@pin pin `*.30CS24  1 p 1 15 ]
+[v gpio_pin_logic_write@logic logic `E2978  1 p 1 16 ]
+"118
+} 0
+"26
+[v _gpio_pin_direction_init gpio_pin_direction_init `(uc  1 e 1 0 ]
+{
+"28
+[v gpio_pin_direction_init@ret ret `uc  1 a 1 16 ]
+[s S24 . 1 `uc 1 PORT 1 0 :3:0 
+`uc 1 PIN 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"26
+[v gpio_pin_direction_init@pin pin `*.30CS24  1 p 1 15 ]
+"56
+} 0
+"84 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/interrupts/MCAL_INTERRUPT_MANAGER.c
+[v _Interrupt_Manager Interrupt_Manager `IIH(v  1 e 1 0 ]
+{
+"141
+} 0
+"124 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER3/timer3.c
+[v _Timer3_ISR Timer3_ISR `(v  1 e 1 0 ]
+{
+"129
+} 0
+"132
+[v i2_write@timer3$F2768 write `(v  1 s 1 i2_write@timer3$F2768 ]
+{
+[v i2write@timer3$F2768@value value `us  1 p 2 0 ]
+"136
+} 0
+"102 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER2/timer2.c
+[v _Timer2_ISR Timer2_ISR `(v  1 e 1 0 ]
+{
+"107
+} 0
+"45 D:\Embedded system practise\interfacing\Projects\application.c
+[v _led_toggle_callback led_toggle_callback `(v  1 e 1 0 ]
+{
+"59
+} 0
+"133 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER1/timer.c
+[v _Timer1_ISR Timer1_ISR `(v  1 e 1 0 ]
+{
+"138
+} 0
+"141
+[v _write@timer$F2306 write `(v  1 s 1 write ]
+{
+[v write@timer$F2306@value value `us  1 p 2 0 ]
+"145
+} 0
+"145 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/TIMER0/timer.c
+[v _Timer0_ISR Timer0_ISR `(v  1 e 1 0 ]
+{
+"150
+} 0
+"153
+[v _write write `(v  1 s 1 write ]
+{
+[v write@value value `us  1 p 2 0 ]
+"156
+} 0
+"630 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/interrupts/MCAL_EXTERNAL_INTERRUPT.c
+[v _RB3_ISR RB3_ISR `(v  1 e 1 0 ]
+{
+[v RB3_ISR@level level `uc  1 a 1 wreg ]
+[v RB3_ISR@level level `uc  1 a 1 wreg ]
+"632
+[v RB3_ISR@level level `uc  1 a 1 8 ]
+"664
+} 0
+"506
+[v _ISR2 ISR2 `(v  1 e 1 0 ]
+{
+"518
+} 0
+"493
+[v _ISR1 ISR1 `(v  1 e 1 0 ]
+{
+"505
+} 0
+"480
+[v _ISR0 ISR0 `(v  1 e 1 0 ]
+{
+"492
+} 0
+"94 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/GPIO/HAL_GPIO.c
+[v i2_gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 PORT 1 0 :3:0 
+`uc 1 PIN 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+[v i2gpio_pin_logic_write@pin pin `*.30CS24  1 p 1 0 ]
+[v i2gpio_pin_logic_write@logic logic `E2978  1 p 1 1 ]
+"118
+} 0
+"154
+[v _gpio_pin_logic_toggle gpio_pin_logic_toggle `(uc  1 e 1 0 ]
+{
+"156
+[v gpio_pin_logic_toggle@ret ret `uc  1 a 1 5 ]
+[s S24 . 1 `uc 1 PORT 1 0 :3:0 
+`uc 1 PIN 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"154
+[v gpio_pin_logic_toggle@pin pin `*.30CS24  1 p 1 0 ]
+"170
+} 0
+"324 D:\Embedded system practise\interfacing\Projects\MCAL_LAYER/ADC/adc.c
+[v _ADC_ISR1 ADC_ISR1 `(v  1 e 1 0 ]
+{
+"329
+} 0

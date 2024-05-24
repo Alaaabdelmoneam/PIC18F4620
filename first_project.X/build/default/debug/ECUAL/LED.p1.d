@@ -1,0 +1,8 @@
+build/default/debug/ECUAL/LED.p1:  \
+ECUAL/LED.c  \
+ECUAL/LED.h  \
+ECUAL/../MCAL/HAL_GPIO.h  \
+ECUAL/../MCAL/STD_TYPES.h  \
+ECUAL/../MCAL/COMPILER.h  \
+ECUAL/../MCAL/STD_LIBS.h  \
+ECUAL/../MCAL/DEVICE_CONFIG.h 

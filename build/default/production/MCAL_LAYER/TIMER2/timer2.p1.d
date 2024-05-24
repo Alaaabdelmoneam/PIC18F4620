@@ -1,0 +1,14 @@
+build/default/production/MCAL_LAYER/TIMER2/timer2.p1:  \
+MCAL_LAYER/TIMER2/timer2.c  \
+MCAL_LAYER/TIMER2/timer2.h  \
+MCAL_LAYER/TIMER2/timer2_cfg.h  \
+MCAL_LAYER/TIMER2/../GPIO/HAL_GPIO.h  \
+MCAL_LAYER/TIMER2/../GPIO/../STD_TYPES.h  \
+MCAL_LAYER/TIMER2/../GPIO/../STD_LIBS.h  \
+MCAL_LAYER/TIMER2/../GPIO/../COMPILER.h  \
+C:/Program\ Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8/pic/include/xc.h  \
+MCAL_LAYER/TIMER2/../GPIO/../DEVICE_CONFIG.h  \
+MCAL_LAYER/TIMER2/../GPIO/hal_gpio_cfg.h  \
+MCAL_LAYER/TIMER2/../interrupts/MCAL_INTERNAL_INTERRUPT.h  \
+MCAL_LAYER/TIMER2/../interrupts/MCAL_INTERRUPT_CONFIG.h  \
+MCAL_LAYER/TIMER2/../interrupts/MCAL_INTERRUPT_GEN_CFG.h 
